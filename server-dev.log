@@ -1,0 +1,25 @@
+
+> server@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+server started on http://localhost:9000
+MongoDB connected
+::1 - - [12/Aug/2025:09:58:11 +0000] "GET /general/user/63701cc1f03239b7f700000e HTTP/1.1" 200 4
+::1 - - [12/Aug/2025:09:58:11 +0000] "GET /sales/sales HTTP/1.1" 200 -
+::1 - - [12/Aug/2025:09:58:11 +0000] "GET /general/dashboard HTTP/1.1" 404 99
+::1 - - [12/Aug/2025:09:59:00 +0000] "GET /sales/sales HTTP/1.1" 200 -
+::1 - - [12/Aug/2025:09:59:00 +0000] "GET /general/dashboard HTTP/1.1" 404 99
+::1 - - [12/Aug/2025:09:59:00 +0000] "GET /general/user/63701cc1f03239b7f700000e HTTP/1.1" 200 4
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+server started on http://localhost:9000
+MongoDB connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+server started on http://localhost:9000
+MongoDB connected

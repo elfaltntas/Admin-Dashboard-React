@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app{
+    height:100%;
+    width:100%;
+    font-family:"Inter",sans-serif;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #a0a3b8; /* önceki #7a7f9d yerine daha açık ton */
+}
+::-webkit-scrollbar-thumb{
+    background: #5156a0; /* önceki #21295c yerine daha açık ton */
+}
+::-webkit-scrollbar-track:hover{
+    background: #5156a0; /* önceki #21295c yerine daha açık ton */
+}
