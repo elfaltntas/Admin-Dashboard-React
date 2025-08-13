@@ -5,193 +5,201 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.8.3-yellow)
 ![Material-UI](https://img.shields.io/badge/Material--UI-5.10.15-purple)
 
-## 📖 Proje Hakkında
+## 📖 Project Overview
 
-Bu proje, modern web teknolojileri kullanılarak geliştirilmiş kapsamlı bir admin dashboard uygulamasıdır. React frontend ve Node.js backend ile geliştirilmiş olup, gerçek zamanlı veri görselleştirme, kullanıcı yönetimi ve iş analitiği özellikleri sunar.
+This project is a comprehensive admin dashboard application developed using modern web technologies. Built with React frontend and Node.js backend, it offers real-time data visualization, user management, and business analytics features.
 
 ## 🎥 Demo Video
 
-![Dashboard Demo](assets/dashboard.mp4)
+📹 **Dashboard Demo Video Available**
 
-*Proje demo videosunu yukarıdaki video dosyasından izleyebilirsiniz.*
+The project includes a demo video (`dashboard.mp4`) that showcases all the features and functionality of this admin dashboard.
 
-## ✨ Özellikler
+*To view the demo video, download the `dashboard.mp4` file from the project's assets folder.*
 
-### 🔐 Güvenlik & Kimlik Doğrulama
-- JWT tabanlı kimlik doğrulama
-- Şifre hashleme (bcryptjs)
-- Korumalı rotalar
-- Oturum yönetimi
+**Video Features:**
+- Complete dashboard walkthrough
+- All major features demonstration
+- User interface showcase
+- Responsive design examples
 
-### 📊 Dashboard & Analitik
-- Gerçek zamanlı veri görselleştirme
-- İnteraktif grafikler ve chartlar
-- Satış performans analizi
-- Müşteri davranış analizi
-- Coğrafi veri görselleştirme
+## ✨ Features
+
+### 🔐 Security & Authentication
+- JWT-based authentication
+- Password hashing (bcryptjs)
+- Protected routes
+- Session management
+
+### 📊 Dashboard & Analytics
+- Real-time data visualization
+- Interactive charts and graphs
+- Sales performance analysis
+- Customer behavior analysis
+- Geographic data visualization
 
 ### 🎨 Modern UI/UX
-- Material-UI v5 tasarım sistemi
-- Responsive tasarım
-- Dark/Light tema desteği
-- Modern ve temiz arayüz
+- Material-UI v5 design system
+- Responsive design
+- Dark/Light theme support
+- Modern and clean interface
 
-### 📱 Responsive Tasarım
-- Mobil uyumlu
-- Tablet uyumlu
-- Desktop optimize
+### 📱 Responsive Design
+- Mobile compatible
+- Tablet compatible
+- Desktop optimized
 
-## 🛠️ Teknoloji Stack
+## 🛠️ Technology Stack
 
 ### Frontend
-- **React 18.2.0** - Modern React hooks ve functional components
+- **React 18.2.0** - Modern React hooks and functional components
 - **Material-UI 5.10.15** - Google Material Design component library
 - **Redux Toolkit** - State management
 - **React Router 6** - Client-side routing
-- **Nivo Charts** - Veri görselleştirme kütüphanesi
+- **Nivo Charts** - Data visualization library
 - **Emotion** - CSS-in-JS styling
 
 ### Backend
 - **Node.js** - JavaScript runtime
 - **Express.js** - Web framework
-- **MongoDB** - NoSQL veritabanı
+- **MongoDB** - NoSQL database
 - **Mongoose** - MongoDB ODM
 - **JWT** - JSON Web Token authentication
-- **bcryptjs** - Şifre hashleme
+- **bcryptjs** - Password hashing
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 admin-dashboard-main/
 ├── client/                 # React frontend
 │   ├── src/
-│   │   ├── components/     # Yeniden kullanılabilir bileşenler
-│   │   ├── scenes/         # Sayfa bileşenleri
-│   │   ├── state/          # Redux store ve API
-│   │   ├── themes.js       # Tema konfigürasyonu
-│   │   └── App.js          # Ana uygulama bileşeni
+│   │   ├── components/     # Reusable components
+│   │   ├── scenes/         # Page components
+│   │   ├── state/          # Redux store and API
+│   │   ├── themes.js       # Theme configuration
+│   │   └── App.js          # Main application component
 │   └── package.json
 ├── server/                 # Node.js backend
-│   ├── controllers/        # Route controller'ları
-│   ├── models/            # MongoDB modelleri
-│   ├── routers/           # API route'ları
-│   ├── database/          # Veritabanı bağlantısı
+│   ├── controllers/        # Route controllers
+│   ├── models/            # MongoDB models
+│   ├── routers/           # API routes
+│   ├── database/          # Database connection
 │   └── package.json
 └── README.md
 ```
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Installation and Setup
 
-### Gereksinimler
+### Requirements
 - Node.js 18+ 
 - MongoDB
-- npm veya yarn
+- npm or yarn
 
-### 1. Repository'yi klonlayın
+### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/admin-dashboard-main.git
 cd admin-dashboard-main
 ```
 
-### 2. Backend kurulumu
+### 2. Backend setup
 ```bash
 cd server
 npm install
 ```
 
-### 3. Environment variables oluşturun
+### 3. Create environment variables
 ```bash
-# server/.env dosyası oluşturun
+# Create server/.env file
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5001
 ```
 
-### 4. Backend'i başlatın
+### 4. Start the backend
 ```bash
 npm run dev
 ```
 
-### 5. Frontend kurulumu (yeni terminal)
+### 5. Frontend setup (new terminal)
 ```bash
 cd ../client
 npm install
 ```
 
-### 6. Frontend'i başlatın
+### 6. Start the frontend
 ```bash
 npm start
 ```
 
-Uygulama `http://localhost:3000` adresinde çalışacaktır.
+The application will run at `http://localhost:3000`.
 
-## 📊 Dashboard Özellikleri
+## 📊 Dashboard Features
 
-### Ana Dashboard
-- Genel satış istatistikleri
-- Performans metrikleri
-- Hızlı erişim kartları
+### Main Dashboard
+- General sales statistics
+- Performance metrics
+- Quick access cards
 
-### Ürün Yönetimi
-- Ürün listesi ve detayları
-- Stok takibi
-- Ürün performans analizi
+### Product Management
+- Product list and details
+- Inventory tracking
+- Product performance analysis
 
-### Müşteri Yönetimi
-- Müşteri veritabanı
-- Müşteri davranış analizi
-- Segmentasyon
+### Customer Management
+- Customer database
+- Customer behavior analysis
+- Segmentation
 
-### Satış Analizi
-- Günlük, aylık satış raporları
-- Coğrafi satış dağılımı
-- Performans karşılaştırmaları
+### Sales Analysis
+- Daily, monthly sales reports
+- Geographic sales distribution
+- Performance comparisons
 
-### Admin Paneli
-- Kullanıcı yönetimi
-- Sistem ayarları
-- Log takibi
+### Admin Panel
+- User management
+- System settings
+- Log tracking
 
 ## 🔧 API Endpoints
 
 ### Authentication
-- `POST /auth/login` - Kullanıcı girişi
-- `POST /auth/register` - Kullanıcı kaydı
+- `POST /auth/login` - User login
+- `POST /auth/register` - User registration
 
 ### General
-- `GET /general/user/:id` - Kullanıcı bilgileri
-- `GET /general/dashboard` - Dashboard verileri
+- `GET /general/user/:id` - User information
+- `GET /general/dashboard` - Dashboard data
 
 ### Sales
-- `GET /sales/overview` - Satış genel bakış
-- `GET /sales/transactions` - İşlem listesi
+- `GET /sales/overview` - Sales overview
+- `GET /sales/transactions` - Transaction list
 
 ### Management
-- `GET /management/admins` - Admin listesi
-- `POST /management/admins` - Admin ekleme
+- `GET /management/admins` - Admin list
+- `POST /management/admins` - Add admin
 
-## 🎨 Tema Sistemi
+## 🎨 Theme System
 
-Proje, Material-UI tabanlı gelişmiş bir tema sistemi kullanır:
-- Dark/Light mode desteği
-- Özelleştirilebilir renk paleti
-- Responsive breakpoint'ler
-- Typography sistemi
+The project uses an advanced theme system based on Material-UI:
+- Dark/Light mode support
+- Customizable color palette
+- Responsive breakpoints
+- Typography system
 
-## 📱 Responsive Tasarım
+## 📱 Responsive Design
 
-- **Mobile First** yaklaşımı
-- **Breakpoint'ler**: xs, sm, md, lg, xl
-- **Flexbox** ve **Grid** layout sistemleri
+- **Mobile First** approach
+- **Breakpoints**: xs, sm, md, lg, xl
+- **Flexbox** and **Grid** layout systems
 - **Touch-friendly** interface
 
-## 🔒 Güvenlik Özellikleri
+## 🔒 Security Features
 
-- **JWT Authentication** - Güvenli token tabanlı kimlik doğrulama
-- **Password Hashing** - bcryptjs ile şifre güvenliği
-- **Protected Routes** - Yetkilendirme kontrolü
-- **CORS Protection** - Cross-origin request güvenliği
-- **Helmet.js** - HTTP header güvenliği
+- **JWT Authentication** - Secure token-based authentication
+- **Password Hashing** - Password security with bcryptjs
+- **Protected Routes** - Authorization control
+- **CORS Protection** - Cross-origin request security
+- **Helmet.js** - HTTP header security
 
 ## 🚀 Deployment
 
@@ -207,37 +215,37 @@ cd server
 npm start
 ```
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
-4. Push yapın (`git push origin feature/AmazingFeature`)
-5. Pull Request oluşturun
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 
 **Elfal** - [GitHub](https://github.com/yourusername)
 
-## 🙏 Teşekkürler
+## 🙏 Acknowledgments
 
 - [Material-UI](https://mui.com/) - UI component library
 - [Nivo](https://nivo.rocks/) - Chart library
 - [React](https://reactjs.org/) - Frontend framework
 - [Node.js](https://nodejs.org/) - Backend runtime
 
-## 📞 İletişim
+## 📞 Contact
 
 - **GitHub**: [@yourusername](https://github.com/yourusername)
 - **Email**: your.email@example.com
 
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+⭐ Don't forget to star this project if you like it!
 
 
 
