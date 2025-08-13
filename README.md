@@ -9,7 +9,7 @@
 
 This project is a comprehensive admin dashboard application developed using modern web technologies. Built with React frontend and Node.js backend, it offers real-time data visualization, user management, and business analytics features.
 
-## 🎥 Demo Video
+## 🎥 Demo Video & Screenshots
 
 📹 **Dashboard Demo Video Available**
 
@@ -22,6 +22,30 @@ The project includes a demo video (`dashboard.mp4`) that showcases all the featu
 - All major features demonstration
 - User interface showcase
 - Responsive design examples
+
+---
+
+## 📸 Project Screenshots
+
+### 🔐 Authentication
+![Login Page](assets/login1.png)
+*Modern and secure login interface with Material-UI design*
+
+### 🌞 Light Theme Dashboard
+![Dashboard Light Theme](assets/dashboard_light.png)
+*Main dashboard view in light theme mode*
+
+### 🌙 Dark Theme Dashboard
+![Dashboard Dark Theme](assets/dashboard_night.png)
+*Main dashboard view in dark theme mode*
+
+### 📊 Overview & Analytics
+![Overview Page](assets/overview.png)
+*Comprehensive overview with charts and analytics*
+
+### 🛍️ Product Management
+![Product Management](assets/product.png)
+*Product management interface with data grid*
 
 ## ✨ Features
 
@@ -242,6 +266,26 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - **GitHub**: [@yourusername](https://github.com/yourusername)
 - **Email**: your.email@example.com
+
+---
+
+## 🖼️ Project Gallery
+
+<div align="center">
+
+### 🌟 **Complete Project Showcase**
+
+| Feature | Screenshot |
+|---------|------------|
+| **Login Interface** | ![Login](assets/login1.png) |
+| **Light Theme** | ![Light Theme](assets/dashboard_light.png) |
+| **Dark Theme** | ![Dark Theme](assets/dashboard_night.png) |
+| **Overview** | ![Overview](assets/overview.png) |
+| **Products** | ![Products](assets/product.png) |
+
+*All screenshots showcase the modern Material-UI design and responsive layout*
+
+</div>
 
 ---
 
