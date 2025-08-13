@@ -253,7 +253,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 👨‍💻 Developer
 
-**Elfal** - [GitHub](https://github.com/yourusername)
+**Elif Altintas** - [GitHub](https://github.com/elfaltntas)
 
 ## 🙏 Acknowledgments
 
@@ -264,8 +264,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 📞 Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **GitHub**: [@elifaltintas](https://github.com/elfaltntas)
+- **Email**: elfaltntas123@gmail.com
 
 ---
 
